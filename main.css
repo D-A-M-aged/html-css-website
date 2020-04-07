@@ -1,0 +1,55 @@
+body{
+    background-image: url("images/veggies.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.header{
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  color: lightgreen;
+  text-align: center;
+  font-family: Bradley Hand;
+  background-color: darkgreen;
+}
+.nav ul{
+  width: 100%;
+  list-style: none;
+  background-color: tomato;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li{
+  display: inline-block;
+}
+.nav a{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 250px;
+  color: darkgreen;
+  text-decoration: none;
+  font-family: Bradley Hand;
+  font-size: 17px;
+  display: block;
+  padding: 10px;
+}
+a:hover{
+  background: lightgreen;
+  transition: 0.4s;
+}
+.link1{
+  font-family: Bradley Hand;
+  color: darkgreen;
+  background-color: lightgreen;
+}
+.link2 table{
+  font-family: Bradley Hand;
+  background-color: pink;
+}
+.link3 ul{
+  font-family: Bradley Hand;
+  background-color: tomato;
+  color: darkgreen;
+}
